@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin: 20% 20%;
+}

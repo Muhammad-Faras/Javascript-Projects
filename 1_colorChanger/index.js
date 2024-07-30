@@ -7,7 +7,6 @@ function colorChanger() {
     console.log(index);
 
 
-
     console.log(index === colors.length - 1)
     console.log(index === colors.length)
     if (index > colors.length - 1) {
