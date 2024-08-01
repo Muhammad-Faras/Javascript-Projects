@@ -7,6 +7,15 @@ function taskFunction() {
         task.innerText = taskText
 
         taskcontainer.appendChild(task)
+
+        task.addEventListener('click', function () {
+            if (task.style.textDecoration === 'line-through') {
+                task.style.textDecoration = 'none';
+            }
+            else {
+                task.style.textDecoration = 'line-through';
+            }
+        });
         taskinput.value = '';
     }
 }
